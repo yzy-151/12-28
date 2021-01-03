@@ -10,8 +10,8 @@ class MainActivity3 : AppCompatActivity(),View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
     }
-    var progressBar:ProgressBar=findViewById(R.id.progressBar)
     override fun onClick(v:View){
+        val progressBar:ProgressBar=findViewById(R.id.progressBar)
         when (v.id){
             R.id.button7->{
                 progressBar.progress=progressBar.progress+10
